@@ -17,6 +17,7 @@ const eslintConfig = [
       "**/node_modules/**",
       "**/.next/**",
       "**/prisma/generated/**", // si usás una carpeta de salida personalizada
+      "**/lib/generated/**", // si usás una carpeta de salida personalizada
       "**/node_modules/.prisma/**", // los archivos generados internamente por Prisma
     ],
   },
